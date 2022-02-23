@@ -13,7 +13,7 @@ ImageGalleryItem.propTypes = {
     largeImageURL: PropTypes.string.isRequired,
     tags: PropTypes.any,
   }),
-  onHandleClick: PropTypes.any,
+  onHandleClick: PropTypes.func.isRequired,
 };
 
 export default ImageGalleryItem;
